@@ -1,0 +1,17 @@
+main
+	initialize
+		ATD_start
+		PWM_Init
+	checkFlameSensors
+		moveTowardsFlame
+			goToFire
+				forward
+				ATD_read
+				stopCar
+				startWaterPump
+					stopWaterPump
+			left
+				stopCar
+			right
+				stopCar
+			stopCar
