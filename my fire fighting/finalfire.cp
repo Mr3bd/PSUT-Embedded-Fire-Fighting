@@ -1,4 +1,4 @@
-#line 1 "C:/Users/20190270/Desktop/my fire fighting/finalfire.c"
+#line 1 "C:/Users/20190270/Desktop/fire fighting/PSUT-Embedded-Fire-Fighting/my fire fighting/finalfire.c"
 void initialize();
 void checkFlameSensors();
 void moveTowardsFlame();
